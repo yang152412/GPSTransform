@@ -19,3 +19,12 @@ WGS： 国外手机应该都是吧。
 BD09：当然百度了
 
 GCJ： 国内手机应该都是吧。还有 高德，腾讯，阿里云
+
+
+### 三、坐标拾取器
+
+百度：http://api.map.baidu.com/lbsapi/getpoint/index.html
+百度开放平台：http://lbsyun.baidu.com/index.php?title=首页
+
+高德：http://lbs.amap.com/console/show/picker 
+高德开放平底：http://lbs.amap.com/?spm=0.0.0.0.yR3LHg
