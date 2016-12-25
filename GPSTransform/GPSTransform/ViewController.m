@@ -19,7 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    CLLocationCoordinate2D wgs = CLLocationCoordinate2DMake(34.777082, 113.715453);
+//    CLLocationCoordinate2D wgs = CLLocationCoordinate2DMake(34.777082, 113.715453);
+    CLLocationCoordinate2D wgs = CLLocationCoordinate2DMake(31.20117674, 121.57858671);
+    
     
     CLLocationCoordinate2D gcj = [CoordinateTransform GCJFromWGSLat:wgs.latitude WGSLon:wgs.longitude];
     NSLog(@" gcj: %lf,%f ",gcj.latitude,gcj.longitude);
