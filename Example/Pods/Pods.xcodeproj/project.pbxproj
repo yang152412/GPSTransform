@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DCFD9AFA98B510EBDF4BB83E7FD01B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6CE15AD6671FFE23C3701D17D2175E51 /* YJGPSTransform-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E88BC768D6A539F462F7B3130D348C82 /* YJGPSTransform-dummy.m */; };
+		7A22AAFE04F2B5150236EEB2B49853A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8AB555C0AC207BFA52A35EEAB4591615 /* Pods-GPSTransform-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB4D80EE6E00D4B771BE020F6B82C95 /* Pods-GPSTransform-dummy.m */; };
+		C6087648EB11DBB1529E5466BC168573 /* CoordinateTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 698E2983F8F9433D3BCD29625AEFAB64 /* CoordinateTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDBC3924860DD702891146246EFB84EB /* CoordinateTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7CE149D6BA19181265C7BF5A1CDF5F /* CoordinateTransform.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAED3A9CC2CF79EEC80EFC440589FA1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4EBA1CBD6B9D0650D3D8AEF2C1F8CC5;
+			remoteInfo = YJGPSTransform;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C158B9D579CD2F4A154F5C0F11A8C3 /* YJGPSTransform-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJGPSTransform-prefix.pch"; sourceTree = "<group>"; };
+		1253A60D080FF801909D8FD962E34BF0 /* libYJGPSTransform.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYJGPSTransform.a; path = libYJGPSTransform.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EBA6680BBE7CB1A92330717BEE57962 /* Pods-GPSTransform-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GPSTransform-frameworks.sh"; sourceTree = "<group>"; };
+		351FC5E9673EA19F3C691AAA65A4A4EA /* YJGPSTransform.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YJGPSTransform.xcconfig; sourceTree = "<group>"; };
+		431676CE652C7A2669C15A8D5E75F69C /* Pods-GPSTransform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPSTransform.release.xcconfig"; sourceTree = "<group>"; };
+		4B9494BD4624069F9EB7F0F5CD6961F1 /* Pods-GPSTransform-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GPSTransform-resources.sh"; sourceTree = "<group>"; };
+		5DA14EF73C378C8EAA743EE03C50407C /* libPods-GPSTransform.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GPSTransform.a"; path = "libPods-GPSTransform.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		698E2983F8F9433D3BCD29625AEFAB64 /* CoordinateTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CoordinateTransform.h; sourceTree = "<group>"; };
+		746EACB6CD8838A87D0D2A8C99AF30DC /* Pods-GPSTransform-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GPSTransform-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7AB4D80EE6E00D4B771BE020F6B82C95 /* Pods-GPSTransform-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GPSTransform-dummy.m"; sourceTree = "<group>"; };
+		83392D8EB63C162FD8D77E3B25576F68 /* Pods-GPSTransform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPSTransform.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E88BC768D6A539F462F7B3130D348C82 /* YJGPSTransform-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YJGPSTransform-dummy.m"; sourceTree = "<group>"; };
+		FB7CE149D6BA19181265C7BF5A1CDF5F /* CoordinateTransform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CoordinateTransform.m; sourceTree = "<group>"; };
+		FF4F7A4819D7EE3202F8D83F5A44BFAF /* Pods-GPSTransform-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPSTransform-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45CD3675C97FC0031FD75415C3E4E84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCFD9AFA98B510EBDF4BB83E7FD01B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FBE40FEF06F81FEB089BD8392F94242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A22AAFE04F2B5150236EEB2B49853A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08010C9DE5DBBA6E2BA353721C49743E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DA14EF73C378C8EAA743EE03C50407C /* libPods-GPSTransform.a */,
+				1253A60D080FF801909D8FD962E34BF0 /* libYJGPSTransform.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F8DAE278FEE263468B9AEE18B8F1C1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				351FC5E9673EA19F3C691AAA65A4A4EA /* YJGPSTransform.xcconfig */,
+				E88BC768D6A539F462F7B3130D348C82 /* YJGPSTransform-dummy.m */,
+				03C158B9D579CD2F4A154F5C0F11A8C3 /* YJGPSTransform-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YJGPSTransform";
+			sourceTree = "<group>";
+		};
+		31621CAF61BF9848FDB8AEF98C81670A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				842B60E5FE4DA94439F73FE9AD917E5E /* Pods-GPSTransform */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5D429F08FABEED1597C55C8909E5FAED /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD3D53B3405A329DC7FB0379A5689C13 /* YJGPSTransform */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				5D429F08FABEED1597C55C8909E5FAED /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				08010C9DE5DBBA6E2BA353721C49743E /* Products */,
+				31621CAF61BF9848FDB8AEF98C81670A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		842B60E5FE4DA94439F73FE9AD917E5E /* Pods-GPSTransform */ = {
+			isa = PBXGroup;
+			children = (
+				746EACB6CD8838A87D0D2A8C99AF30DC /* Pods-GPSTransform-acknowledgements.markdown */,
+				FF4F7A4819D7EE3202F8D83F5A44BFAF /* Pods-GPSTransform-acknowledgements.plist */,
+				7AB4D80EE6E00D4B771BE020F6B82C95 /* Pods-GPSTransform-dummy.m */,
+				2EBA6680BBE7CB1A92330717BEE57962 /* Pods-GPSTransform-frameworks.sh */,
+				4B9494BD4624069F9EB7F0F5CD6961F1 /* Pods-GPSTransform-resources.sh */,
+				83392D8EB63C162FD8D77E3B25576F68 /* Pods-GPSTransform.debug.xcconfig */,
+				431676CE652C7A2669C15A8D5E75F69C /* Pods-GPSTransform.release.xcconfig */,
+			);
+			name = "Pods-GPSTransform";
+			path = "Target Support Files/Pods-GPSTransform";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD3D53B3405A329DC7FB0379A5689C13 /* YJGPSTransform */ = {
+			isa = PBXGroup;
+			children = (
+				2F8DAE278FEE263468B9AEE18B8F1C1E /* Support Files */,
+				FC9CDBA2CDB1FAEFA3AAA96FC98A5A0B /* YJGPSTransform */,
+			);
+			name = YJGPSTransform;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FC9CDBA2CDB1FAEFA3AAA96FC98A5A0B /* YJGPSTransform */ = {
+			isa = PBXGroup;
+			children = (
+				698E2983F8F9433D3BCD29625AEFAB64 /* CoordinateTransform.h */,
+				FB7CE149D6BA19181265C7BF5A1CDF5F /* CoordinateTransform.m */,
+			);
+			name = YJGPSTransform;
+			path = YJGPSTransform;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BBB39A684F2F22E874C69288B418EAAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6087648EB11DBB1529E5466BC168573 /* CoordinateTransform.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		364E4112A3800BC75397A1E8078E2DFE /* Pods-GPSTransform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520EF1580C1AE012B1C24EC7BC354044 /* Build configuration list for PBXNativeTarget "Pods-GPSTransform" */;
+			buildPhases = (
+				2D4D4205AD70CF63F667F46B88593558 /* Sources */,
+				45CD3675C97FC0031FD75415C3E4E84E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				141BF16091313AE067B4BE28155AC0B2 /* PBXTargetDependency */,
+			);
+			name = "Pods-GPSTransform";
+			productName = "Pods-GPSTransform";
+			productReference = 5DA14EF73C378C8EAA743EE03C50407C /* libPods-GPSTransform.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A4EBA1CBD6B9D0650D3D8AEF2C1F8CC5 /* YJGPSTransform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F579D313FED8497C3C00A2786E284C0 /* Build configuration list for PBXNativeTarget "YJGPSTransform" */;
+			buildPhases = (
+				24C67465244CBCF00B6A13C3B41F3F45 /* Sources */,
+				5FBE40FEF06F81FEB089BD8392F94242 /* Frameworks */,
+				BBB39A684F2F22E874C69288B418EAAC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJGPSTransform;
+			productName = YJGPSTransform;
+			productReference = 1253A60D080FF801909D8FD962E34BF0 /* libYJGPSTransform.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 08010C9DE5DBBA6E2BA353721C49743E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				364E4112A3800BC75397A1E8078E2DFE /* Pods-GPSTransform */,
+				A4EBA1CBD6B9D0650D3D8AEF2C1F8CC5 /* YJGPSTransform */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24C67465244CBCF00B6A13C3B41F3F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDBC3924860DD702891146246EFB84EB /* CoordinateTransform.m in Sources */,
+				6CE15AD6671FFE23C3701D17D2175E51 /* YJGPSTransform-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4D4205AD70CF63F667F46B88593558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB555C0AC207BFA52A35EEAB4591615 /* Pods-GPSTransform-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		141BF16091313AE067B4BE28155AC0B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YJGPSTransform;
+			target = A4EBA1CBD6B9D0650D3D8AEF2C1F8CC5 /* YJGPSTransform */;
+			targetProxy = BAED3A9CC2CF79EEC80EFC440589FA1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		411D221C33E4F30EC1037B8F0C7285D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351FC5E9673EA19F3C691AAA65A4A4EA /* YJGPSTransform.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YJGPSTransform/YJGPSTransform-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5F5344BE9846A8A93B6C06D42D08E5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83392D8EB63C162FD8D77E3B25576F68 /* Pods-GPSTransform.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95F1F06D1055AB7C034E6A3548744020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351FC5E9673EA19F3C691AAA65A4A4EA /* YJGPSTransform.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YJGPSTransform/YJGPSTransform-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AB74E9DD03EB9E7556E338426FDB1ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431676CE652C7A2669C15A8D5E75F69C /* Pods-GPSTransform.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CF7953F66E785E8876EB4D370D777D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7953F66E785E8876EB4D370D777D50 /* Debug */,
+				79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520EF1580C1AE012B1C24EC7BC354044 /* Build configuration list for PBXNativeTarget "Pods-GPSTransform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5344BE9846A8A93B6C06D42D08E5F1 /* Debug */,
+				AB74E9DD03EB9E7556E338426FDB1ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F579D313FED8497C3C00A2786E284C0 /* Build configuration list for PBXNativeTarget "YJGPSTransform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F1F06D1055AB7C034E6A3548744020 /* Debug */,
+				411D221C33E4F30EC1037B8F0C7285D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

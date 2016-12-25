@@ -1,0 +1,16 @@
+PODS:
+  - YJGPSTransform (0.0.1)
+
+DEPENDENCIES:
+  - YJGPSTransform (from `../`)
+
+EXTERNAL SOURCES:
+  YJGPSTransform:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YJGPSTransform: 8e6420c2c4ac316b4ddd3202b477eaaef76dab6a
+
+PODFILE CHECKSUM: e73992159eab45235b4f60796c2d244197878635
+
+COCOAPODS: 1.1.1
