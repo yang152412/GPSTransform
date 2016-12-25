@@ -4,6 +4,16 @@ WGS to GCJ, GCJ to BD09
 ios WGS 和 GCJ 坐标系互转
   GCJ 和 BD09 坐标系 互转
 
+## 如何使用
+
+#####1、pod
+```
+pod 'YJGPSTransform'
+```
+
+#####2、
+copy `CoordinateTransform.h/.m` to your project. add `CoreLocation` framework
+
 ### 一、 坐标系介绍
 WGS：国际经纬度坐标标准为WGS-84；ios GPS模块获取到的坐标是WGS84坐标系的。
 
